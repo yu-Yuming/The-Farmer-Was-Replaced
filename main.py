@@ -1,3 +1,5 @@
+clear()
+
 while True:
     for i in range(get_world_size()):
         for j in range(get_world_size()):
@@ -8,3 +10,7 @@ while True:
                 plant(Entities.Carrot)
             move(North)
         move(East)
+
+
+def plant_carrot():
+    pass
